@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "akamud.vscode-caniuse",
+        "angular.ng-template",
+        "bmewburn.vscode-intelephense-client",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "humao.rest-client",
+        "jock.svg",
+        "mhutchie.git-graph",
+        "ms-ceintl.vscode-language-pack-zh-hans",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "p-de-jong.vscode-html-scss",
+        "pflannery.vscode-versionlens"
+    ]
+}

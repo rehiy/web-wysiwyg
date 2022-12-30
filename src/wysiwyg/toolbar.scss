@@ -1,0 +1,43 @@
+.wysiwyg-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid $wysiwyg-border-color;
+
+    & > button {
+        display: block;
+        box-sizing: content-box;
+
+        margin: 0;
+        border: none;
+        outline: none;
+        padding: $wysiwyg-padding-vert 0;
+
+        width: $wysiwyg-padding-horiz + $wysiwyg-icon-size + $wysiwyg-padding-horiz;
+        height: $wysiwyg-icon-size;
+
+        background: transparent none;
+        transition: color 0.2s, background 0.2s;
+
+        user-select: none;
+        cursor: pointer;
+
+        svg {
+            fill: $wysiwyg-toolbar-color;
+        }
+
+        &:hover svg {
+            fill: $wysiwyg-highlight-back;
+        }
+
+        &[disabled] {
+            opacity: 0.3;
+        }
+
+        svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+div.quote,
+div.blockcode {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-left: 0.5rem solid #a9a9a9;
+    background-color: #e9e9e9;
+
+    blockquote {
+        margin: 0;
+        line-height: 1.6;
+    }
+}
+
+table.t_table {
+    border-collapse: collapse;
+    empty-cells: show;
+
+    td {
+        padding: 0.5rem;
+        border: 1px solid #a9a9a9;
+        overflow: hidden;
+    }
+}
+
+ul.litype_1 {
+    padding-left: 1rem;
+    list-style-type: decimal;
+}
+ul.litype_2 {
+    padding-left: 1rem;
+    list-style-type: lower-alpha;
+}
+ul.litype_3 {
+    padding-left: 1rem;
+    list-style-type: upper-alpha;
+}

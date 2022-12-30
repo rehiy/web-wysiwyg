@@ -1,0 +1,44 @@
+.wysiwyg-popup {
+    position: absolute;
+    z-index: 9999;
+
+    color: black;
+    background: rgba(white, 0.9);
+
+    border: 1px solid $wysiwyg-border-color;
+    border-radius: $wysiwyg-border-radius;
+
+    box-sizing: border-box;
+    overflow: hidden;
+
+    user-select: none;
+
+    &.animate-down {
+        transform-origin: top;
+        animation: wysiwyg-f1 .2s ease-out 0s 1;
+    }
+
+    &.animate-up {
+        transform-origin: bottom;
+        animation: wysiwyg-f1 .2s ease-out 0s 1;
+    }
+
+    .pointer {
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+@keyframes wysiwyg-f1 {
+    from {
+        opacity: 0;
+        transform: scale(0.5, 0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}

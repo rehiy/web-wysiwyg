@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationDir": "public/tsc",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "target": "es2015"
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <title>编辑器测试</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="assets/theme.css" />
+</head>
+
+<body>
+
+    <div class="workspace">
+        <h3>Web Editor</h3>
+        <div class="wysiwyg wysiwyg-content">
+            <div contenteditable="true" data-placeholder="请输入内容...">
+                这是一个迷你型编辑器，仅对<b>现代浏览器</b>提供支持。
+                <div><ol><li>支持自定义工具栏</li><li>不依赖第三方js库</li></ol></div>
+            </div>
+        </div>
+        <script type="module">
+            import { NativeEditor } from './public-api.js';
+            new NativeEditor({ selector: '.wysiwyg' });
+        </script>
+    </div>
+
+    <div style="display: none;">
+        <img id="image_38" src="https://s01.incnjp.com/forum/202010/22/144838p7wex1re7ee21wj2.jpg" />
+        <img id="image_88" src="https://user.incnjp.com/data/avatar/000/21/12/88_avatar_middle.jpg" />
+        <img id="image_72" src="https://user.incnjp.com/data/avatar/000/25/39/72_avatar_middle.jpg" />
+        <img id="image_35" src="https://user.incnjp.com/data/avatar/000/41/71/35_avatar_middle.jpg" />
+        <img id="image_96" src="https://user.incnjp.com/data/avatar/000/32/52/96_avatar_middle.jpg" />
+    </div>
+
+</body>
+
+</html>

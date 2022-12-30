@@ -1,0 +1,38 @@
+.wysiwyg {
+    position: relative;
+    display: block;
+
+    color: black;
+    background: none transparent;
+
+    border: 1px solid $wysiwyg-border-color;
+    border-radius: $wysiwyg-border-radius;
+    transition: border .2s;
+
+    &.focus,
+    &:focus-within {
+        border-color: $wysiwyg-highlight-back;
+    }
+
+    > [contenteditable] {
+        display: block;
+        padding: $wysiwyg-padding-vert $wysiwyg-padding-horiz;
+        word-wrap: break-word;
+        overflow: hidden;
+        outline: none;
+    }
+
+    > [contenteditable]:empty::before {
+        display: block;
+        opacity: 0.54;
+        user-select: none;
+        white-space: nowrap;
+        pointer-events: none;
+        content: '\200B';
+        cursor: text;
+    }
+
+    > [contenteditable][data-placeholder]:empty::before {
+        content: '\200B'attr(data-placeholder);
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "root": true,
+    "ignorePatterns": [
+        "projects/**/*"
+    ],
+    "overrides": [
+        {
+            "files": [
+                "*.ts"
+            ],
+            "parserOptions": {
+                "project": [
+                    "tsconfig.json"
+                ],
+                "createDefaultProgram": true
+            },
+            "extends": [],
+            "rules": {
+                "@typescript-eslint/member-ordering": "off",
+                "@typescript-eslint/no-unused-expressions": "off",
+                "@typescript-eslint/naming-convention": "off",
+                "no-bitwise": "off"
+            }
+        },
+        {
+            "files": [
+                "*.html"
+            ],
+            "extends": [],
+            "rules": {}
+        }
+    ]
+}

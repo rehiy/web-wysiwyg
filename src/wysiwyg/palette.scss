@@ -1,0 +1,10 @@
+.wysiwyg-palette {
+    border-collapse: collapse;
+
+    td {
+        width: 0.5rem;
+        height: 0.5rem;
+        cursor: pointer;
+        user-select: none;
+    }
+}

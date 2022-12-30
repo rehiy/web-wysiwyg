@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+
+export SDIR=$(dirname ${BASH_SOURCE[0]})
+export PATH=./node_modules/.bin:$PATH
+
+cd $SDIR
+
+###########################################################
+
+npm install
+
+###########################################################
+
+[ -z "$1" ] && /bin/bash
+[ -n "$1" ] && npm run $1

@@ -1,0 +1,13 @@
+.wysiwyg-popup-link {
+    display: flex;
+
+    width: 20rem;
+    padding: 0.5rem;
+
+    input {
+        flex: auto;
+        height: 2rem;
+        margin-right: 0.5rem;
+        padding: 0 0.5rem;
+    }
+}

@@ -1,0 +1,20 @@
+/* 核心组件式表 */
+
+@import './wysiwyg/common.scss';
+@import './wysiwyg/palette.scss';
+@import './wysiwyg/popup.scss';
+@import './wysiwyg/toolbar.scss';
+@import './wysiwyg/wysiwyg.scss';
+
+/* 按钮相关样式 */
+
+@import './button/image.scss';
+@import './button/link.scss';
+@import './button/quote.scss';
+@import './button/smiley.scss';
+
+/* 内容页面样式 */
+
+.wysiwyg-content {
+    @import './editor/style.scss';
+}
