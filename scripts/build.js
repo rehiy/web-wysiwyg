@@ -21,6 +21,7 @@ export default {
     plugins: [
         copy({
             targets: [
+                { src: 'README.md', dest: 'public/' },
                 { src: 'src/assets/smiley', dest: 'public/assets/' }
             ]
         }),
