@@ -4,7 +4,13 @@ A simple WEB wysiwyg editor
 
 ### Usage
 
-```shell
+```html
+<div class="wysiwyg wysiwyg-content">
+    <div contenteditable="true" data-placeholder="请输入内容..."></div>
+</div>
+```
+
+```js
 import { NativeEditor } from 'web-wysiwyg';
 new NativeEditor({ selector: '.wysiwyg' });
 ```
