@@ -1,14 +1,15 @@
 # web-editor
+
 A simple WEB wysiwyg editor
 
 
-## Build a package
+### Build a package
 
 ```shell
 npm run build
 ```
 
-## Develop mode
+### Develop mode
 
 ```shell
 npm start
