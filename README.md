@@ -1,7 +1,6 @@
-# web-editor
+# web wysiwyg editor
 
 A simple WEB wysiwyg editor
-
 
 ### Build a package
 
