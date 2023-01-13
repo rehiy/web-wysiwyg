@@ -2,7 +2,18 @@
 
 A simple WEB wysiwyg editor
 
-### Usage
+Demo: https://apps.rehiy.com/web-wysiwyg/
+
+## Usage
+
+### install package and copy static files
+
+```shell
+npm i web-wysiwyg
+cp -a node_modules/web-wysiwyg/assets/* src/assets/
+```
+
+### create editor template
 
 ```html
 <div class="wysiwyg wysiwyg-content">
@@ -10,18 +21,20 @@ A simple WEB wysiwyg editor
 </div>
 ```
 
+### init editor instance
+
 ```js
 import { NativeEditor } from 'web-wysiwyg';
 new NativeEditor({ selector: '.wysiwyg' });
 ```
 
-### Build a package
+## Build a package
 
 ```shell
 npm run build
 ```
 
-### Develop mode
+## Develop mode
 
 ```shell
 npm start
