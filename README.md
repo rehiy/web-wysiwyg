@@ -1,10 +1,11 @@
 # web wysiwyg editor
 
-A simple WEB wysiwyg editor
+A simple WEB wysiwyg editor, without js library dependency, easy to integrate with regular, react and vue
+
 
 Demo: https://apps.rehiy.com/web-wysiwyg/
 
-## Usage
+## Package usage
 
 ### install package and copy static files
 
@@ -28,13 +29,15 @@ import { NativeEditor } from 'web-wysiwyg';
 new NativeEditor({ selector: '.wysiwyg' });
 ```
 
-## Build a package
+## Developer Description
+
+### Build a package
 
 ```shell
 npm run build
 ```
 
-## Develop mode
+### Develop mode
 
 ```shell
 npm start
