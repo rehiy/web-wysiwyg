@@ -1,6 +1,6 @@
 # web wysiwyg editor
 
-A simple WEB wysiwyg editor, without js library dependency, easy to integrate with regular, react and vue
+A simple WEB wysiwyg editor, without js library dependency, easy to integrate with `Angular`, `React` and `Vue`
 
 
 Demo: https://apps.rehiy.com/web-wysiwyg/
